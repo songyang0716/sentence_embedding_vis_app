@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+flask
+torch
+transformers
+umap-learn
+hdbscan
+pre-commit
