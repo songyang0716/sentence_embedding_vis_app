@@ -1,19 +1,17 @@
-import numpy as np
-import pandas as pd
 import json
-import umap
-import hdbscan
 from collections import Counter
-
-from matplotlib import pyplot as plt
-
 from collections import defaultdict
-
 from typing import List
 
-from transformers import AutoTokenizer, AutoModel
+import hdbscan
+import numpy as np
+import pandas as pd
 import torch
 import torch.nn.functional as F
+import umap
+from matplotlib import pyplot as plt
+from transformers import AutoModel
+from transformers import AutoTokenizer
 
 DATA_PATH = "data/short_tweet.txt"
 JSON_DATA_PATH = "data/Appliances.json"
